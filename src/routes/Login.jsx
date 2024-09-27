@@ -11,12 +11,12 @@ const Login=()=>{
                         <span className="titulo-login">Login</span>
 
                         <div className="input">
-                            <input type="text" className="input-form" id="usuario" ref={} />
+                            <input type="text" className="input-form" id="usuario"  />
                             <span placeholder="usuario"></span>
                         </div>
 
                         <div className="input">
-                            <input type="password" className="input-form" id="senha" ref={} />
+                            <input type="password" className="input-form" id="senha"  />
                             <span placeholder="Senha"></span>
                         </div>
 
