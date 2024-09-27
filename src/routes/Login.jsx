@@ -1,13 +1,15 @@
+import {Link} from 'react-router-dom'
+
 const Login=()=>{
     return(
-        <>
+        
         <section className="container">
 
             <div className="container-login">
 
                 <div className="login">
 
-                    <form className="login-form" onSubmit={handleSubmit}>
+                    <form className="login-form" >
                         <span className="titulo-login">Login</span>
 
                         <div className="input">
@@ -31,7 +33,7 @@ const Login=()=>{
 
                             <li>
                                 <span className="text1">Criar conta</span>
-                                <Link to="" className="text2">Criar</Link>
+                                <Link to="/" className="text2">Criar</Link>
                             </li>
                         </ul>
 
@@ -42,7 +44,7 @@ const Login=()=>{
             </div>
 
         </section>
-        </>
+        
     )
 }
 export default Login

@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle `
     --verde: #32CD32;
     --cinza: #f5f5f5;
     --preto: #333333;
-    --azul: ##00BFFF;
+    --amarelo: #CCFF00;
 
 }
     *{
