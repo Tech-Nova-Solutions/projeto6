@@ -1,11 +1,13 @@
+import { HomeStyle } from "../css/HomeStyle"
+
 const Home=()=>{
     return(
-        <>
+
+        <HomeStyle>
+        <section className="container-home">
         
-        <header>
-            <h1>Loja de Musica</h1>
-        </header>
-        <main>
+            <h1>Produtos</h1>
+        <main className="container-produtos">
                 <section className="produto-item">
                     <img src='' alt="Produto-1" id="produto" />
                     <div>
@@ -89,7 +91,8 @@ const Home=()=>{
                 </section>
         </main>
 
-        </>
+        </section>
+        </HomeStyle>
     )
 }
 export default Home
