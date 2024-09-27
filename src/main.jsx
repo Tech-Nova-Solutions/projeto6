@@ -7,6 +7,7 @@ import Error from './routes/Error.jsx'
 import Musicas from './routes/Musicas.jsx'
 import Login from './routes/Login.jsx'
 import GlobalStyle from './css/GlobalStyle.jsx'
+import CadastrarUsuario from './routes/CadastrarUsuario.jsx'
 
 
 const router = createBrowserRouter([
@@ -20,7 +21,8 @@ const router = createBrowserRouter([
     children:[
       {path:'/',element:<Home/>},
       {path:'/musicas', element:<Musicas/>},
-      {path:'/login', element:<Login/>}
+      {path:'/login', element:<Login/>},
+      {path:'/cadastrar', element:<CadastrarUsuario/>}
 
     ]
   }
