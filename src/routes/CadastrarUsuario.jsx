@@ -72,15 +72,15 @@ const CadastrarUsuario = () => {
   return (
     <CadastrarStyle>
       <section className="container-cadastro">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className='form'>
           <h2>Cadastrar</h2>
           <div className="form-group">
-            <label htmlFor="email">E-mail:</label>
+            <label htmlFor="email">Usuário: </label>
             <input
-              type="email"
-              name="email"
-              placeholder="Digite seu E-mail"
-              value={usuarios.email}
+              type="text"
+              name="usuario"
+              placeholder="Digite um usuário"
+              value={usuarios.usuario}
               onChange={handleChange}
             />
           </div>
