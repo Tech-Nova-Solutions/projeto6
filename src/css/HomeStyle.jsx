@@ -10,6 +10,7 @@ export const HomeStyle = styled.section `
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
+            padding: 20px;
             
         }
         .container-home h1{
@@ -21,7 +22,7 @@ export const HomeStyle = styled.section `
         }
         .container-produtos{
             width: 100%;
-            height: 50%;
+            min-height: 70vh;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -30,12 +31,25 @@ export const HomeStyle = styled.section `
             gap: 30px;
         }
         .produto-item{
-            width: 20%;
+            width: 15%;
+            min-height: 20vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            background: var(--roxo);
+            border-radius: 20px;
+            padding: 20px;
             
+        }
+        .texto{
+            color: var(--verde);
+        }
+        #produto{
+            width:100%;
+            height: auto;
+            padding: 10px;
+            border-radius: 30px;
         }
 
 `
