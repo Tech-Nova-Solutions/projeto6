@@ -1,25 +1,26 @@
 import {Link} from 'react-router-dom'
+import { LoginStyle } from '../css/LoginStyle'
 
 const Login=()=>{
     return(
-        
+        <LoginStyle>
         <section className="container">
 
             <div className="container-login">
 
                 <div className="login">
-
+                    <span className="titulo-login">Login</span>
                     <form className="login-form" >
-                        <span className="titulo-login">Login</span>
+                        
 
                         <div className="input">
-                            <input type="text" className="input-form" id="usuario"  />
-                            <span placeholder="usuario"></span>
+                            <input type="text" className="input-form" id="usuario"  placeholder='Usuário'/>
+                            
                         </div>
 
                         <div className="input">
-                            <input type="password" className="input-form" id="senha"  />
-                            <span placeholder="Senha"></span>
+                            <input type="password" className="input-form" id="senha" placeholder='Senha' />
+                    
                         </div>
 
                         <div className="btn-login">
@@ -44,6 +45,7 @@ const Login=()=>{
             </div>
 
         </section>
+        </LoginStyle>
         
     )
 }
